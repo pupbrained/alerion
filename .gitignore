@@ -19,3 +19,5 @@ Cargo.lock
 /target
 
 .direnv/
+
+rust-analyzer.json

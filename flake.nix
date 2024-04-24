@@ -8,7 +8,6 @@
   };
 
   outputs = {
-    self,
     nixpkgs,
     rust-overlay,
     flake-utils,
@@ -39,7 +38,11 @@
                   bacon
                   openssl
                   pkg-config
-                  (rust-bin.fromRustupToolchainFile ./rust-toolchain.toml)
+                  ((rust-bin.fromRustupToolchainFile ./rust-toolchain.toml).override {
+                    # These should already be included in the
+                    # toolchain but they aren't... no idea why
+                    extensions = ["rust-src" "clippy"];
+                  })
                   (rust-bin.nightly."2024-04-19".rustfmt)
                 ]
                 ++ darwinPkgs;

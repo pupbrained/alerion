@@ -12,10 +12,10 @@ pub fn splash() {
     println!(
         "
 
- █████  ██      ███████ ██████  ██  ██████  ███    ██ 
-██   ██ ██      ██      ██   ██ ██ ██    ██ ████   ██ 
-███████ ██      █████   ██████  ██ ██    ██ ██ ██  ██ 
-██   ██ ██      ██      ██   ██ ██ ██    ██ ██  ██ ██ 
+ █████  ██      ███████ ██████  ██  ██████  ███    ██
+██   ██ ██      ██      ██   ██ ██ ██    ██ ████   ██
+███████ ██      █████   ██████  ██ ██    ██ ██ ██  ██
+██   ██ ██      ██      ██   ██ ██ ██    ██ ██  ██ ██
 ██   ██ ███████ ███████ ██   ██ ██  ██████  ██   ████
 
 Copyright (c) 2024 Pyro Host Inc. All Right Reserved.
@@ -23,7 +23,7 @@ Copyright (c) 2024 Pyro Host Inc. All Right Reserved.
 Pyro Alerion is licensed under the Pyro Source Available
 License (PSAL). Your use of this software is governed by
 the terms of the PSAL. If you don't agree to the terms of
-the PSAL, you are not permitted to use this software. 
+the PSAL, you are not permitted to use this software.
 
 License: https://github.com/pyrohost/legal/blob/main/licenses/PSAL.md
 Source code: https://github.com/pyrohost/alerion"
